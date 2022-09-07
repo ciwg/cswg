@@ -8,7 +8,7 @@ ship: build
 	git push origin gh-pages
 
 build:
-	git add content docs
+	git add content 
 	git commit
 	# generate ./public
 	hugo
