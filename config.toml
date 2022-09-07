@@ -1,0 +1,4 @@
+baseURL = 'http://ciwg.infrastructures.org/'
+languageCode = 'en-us'
+title = 'Community Infrastructure Working Group'
+theme = "hugo-book"
