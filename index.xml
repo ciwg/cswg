@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community Infrastructure Working Group</title>
+    <link>http://ciwg.infrastructures.org/</link>
+    <description>Recent content on Community Infrastructure Working Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://ciwg.infrastructures.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://ciwg.infrastructures.org/</link>
+      <pubDate>Tue, 06 Sep 2022 19:15:22 -0700</pubDate>
+      
+      <guid>http://ciwg.infrastructures.org/</guid>
+      <description> CIWG Git Repositories Maker Community Practices: http://mcp.systems </description>
+    </item>
+    
+  </channel>
+</rss>
