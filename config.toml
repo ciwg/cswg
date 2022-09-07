@@ -1,4 +1,5 @@
 baseURL = 'http://ciwg.infrastructures.org/'
+publishDir = 'docs'
 languageCode = 'en-us'
 title = 'Community Infrastructure Working Group'
 theme = "hugo-book"
