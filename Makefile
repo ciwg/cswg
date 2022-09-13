@@ -8,8 +8,8 @@ ship: build
 	git push origin gh-pages
 
 build:
-	- git add content 
-	- git commit
+	test -z `git status --porcelain` || git gui
+	test -z `git status --porcelain` 
 	# generate ./public
 	hugo
 	# commit the changes in the clone and push them back to the local gh-pages branch    
