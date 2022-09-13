@@ -8,12 +8,12 @@ ship: build
 	git push origin gh-pages
 
 build:
-	git add content 
-	git commit
+	- git add content 
+	- git commit
 	# generate ./public
 	hugo
 	# commit the changes in the clone and push them back to the local gh-pages branch    
-	cd public && git add --all && git commit -m "publish to gh-pages" && git push origin gh-pages
+	cd public && git add --all && (git commit -m "publish to gh-pages" || true) && git push origin gh-pages
 
 clean:
 	# remove previous publication
