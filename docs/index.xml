@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Community Infrastructure Working Group</title>
-    <link>http://ciwg.infrastructures.org/</link>
-    <description>Recent content on Community Infrastructure Working Group</description>
+    <title>Docs on Community Infrastructure Working Group</title>
+    <link>http://ciwg.infrastructures.org/docs/</link>
+    <description>Recent content in Docs on Community Infrastructure Working Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 06 Sep 2022 19:15:22 -0700</lastBuildDate><atom:link href="http://ciwg.infrastructures.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://ciwg.infrastructures.org/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://ciwg.infrastructures.org/docs/about/</link>
