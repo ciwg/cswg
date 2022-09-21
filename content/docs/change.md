@@ -1,5 +1,5 @@
 ---
-title: "Nomcon 2022 Dataflow"
+title: "Change process diagrams"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -9,5 +9,12 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-![NOMCON 2022 data flow](dataflow.png)
+
+## Internet 
+{{< figure src="internet.svg" >}}
+
+
+## NOMCON 2022 Data Flow
+{{< figure src="nomcon-2022.svg" >}}
+
 

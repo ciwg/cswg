@@ -1,0 +1,40 @@
+digraph change_internet {
+    rankdir=BT;
+    label="internet change process -- green is funds flow"
+
+    net [label="Internet"];
+    wg [label="working group"]
+    eco [label="global\neconomy"]
+    proposal [shape=note];
+    draft [shape=note];
+    RFC [shape=note];
+    code [shape=note];
+    computers [shape=box3d]
+    routers [shape=box3d]
+    net [shape=box3d]
+    eco [shape=circle]
+
+    author -> proposal;
+    proposal -> wg;
+    wg -> draft;
+    draft -> editor;
+    editor -> RFC;
+    RFC -> devs;
+    devs -> code;
+    code -> sysadmins;
+    code -> netadmins;
+    RFC -> sysadmins;
+    RFC -> netadmins;
+    sysadmins -> computers;
+    netadmins -> routers;
+    computers -> net;
+    routers -> net;
+    net -> eco;
+
+    eco -> author[color=green];
+    eco -> wg[color=green];
+    eco -> editor[color=green];
+    eco -> devs[color=green];
+    eco -> sysadmins[color=green];
+    eco -> netadmins[color=green];
+}
