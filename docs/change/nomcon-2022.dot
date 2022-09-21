@@ -1,0 +1,31 @@
+digraph dataflow2022 {
+    // rankdir=LR;
+    label="NOMCON 2022 data flow";
+
+    eventbrite -> gather [label="gatherbot"];
+    design -> gather [label="chad"];
+    zoom -> video [label="joe"];
+    zoom -> doc [label="documentarian"];
+    zoom -> doc [label="chat mod"];
+    zoom -> doc [label="steve"];
+    proposals -> sessions [label="callfor.app"];
+    RFPs -> proposals [label="presenters"];
+    volunteers -> spreadsheet [label="cara/sarah"];
+    spreadsheet -> zoom [label="producers"];
+
+    subgraph cluster_0 {
+        label="sched";
+        description;
+        zoom_link;
+        doc_url;
+        attendee_list;
+    }
+
+    zoom -> zoom_link [label="joe"];
+    sessions -> description [label="trey/dorothy"];
+    description -> doc_url [label="schedbot"];
+    doc_url -> doc [label="docbot"];
+    eventbrite -> attendee_list [label="sched builtin integration"];
+
+    zoom_link -> gather [label="chad"];
+}
