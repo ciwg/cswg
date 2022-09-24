@@ -1,0 +1,19 @@
+digraph change_oss {
+    rankdir=BT;
+    label="open source software change process"
+
+    subgraph cluster_0 {
+        label=github;
+        issue;
+        PR;
+        code;
+    }
+
+    author -> code;
+    code -> user;
+    code -> contributor;
+    user -> issue;
+    issue -> contributor;
+    contributor -> PR;
+    PR -> author;
+}
