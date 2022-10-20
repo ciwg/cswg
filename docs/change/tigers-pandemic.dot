@@ -1,0 +1,41 @@
+digraph tigers {
+    rankdir=TB;
+    label="the tigers we have by the tail";
+
+    remote [label="remote presence"];
+    technical [label="technical folks"];
+    nontechnical [label="nontechnical folks"];
+    research [label="pandemic research"];
+    policy [label="pandemic policy"];
+    mitigations [label="pandemic mitigations"];
+    self [label="self interest"];
+    X [label="X"];
+
+    git -> remote [label=supports];
+    git -> technical [label="optimized for"];
+    git -> nontechnical [label="not optimized for"];
+    git -> commons [label="is optimized for managing a"];
+    
+    X -> remote [label=supports];
+    X -> technical [label="optimized for"];
+    X -> nontechnical [label="optimized for"];
+    X -> commons [label="is optimized for managing a"];
+    
+    technical -> research [label="conduct"];
+    technical -> nontechnical [label="have difficulty communicating with"];
+
+    nontechnical -> policy [label="make"];
+    policy -> remote [label=discourages];
+    policy -> onsite [label=encourages];
+
+    onsite -> transmission [label=supports];
+    transmission -> illness [label=causes];
+    illness -> economy [label=harms];
+    illness -> self [label=harms];
+
+    research -> mitigations [label=indicates];    
+    mitigations -> remote [label="spurred"];
+    remote -> self [label="persists due to"];
+
+    economy -> commons [label="is a"];
+}

@@ -1,10 +1,9 @@
 #!/bin/bash
 
 while true
-do inotifywait -e modify roadmap.yaml
-    godecide roadmap.yaml stdout > roadmap.dot.tmp
-    mv roadmap.dot.tmp roadmap.dot
+do inotifywait -r -e modify .
+    make
     sleep 1
+    # xdot roadmap.dot
+    xdot concept-map.dot
 done
-
-# ...then start `xdot roadmap.dot` in a separate window
