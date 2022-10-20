@@ -1,0 +1,42 @@
+digraph change_nom {
+    rankdir=TB;
+    label="NoM process for change -- 2016-2022\ngreen is funds flow, black is effort/text/code"
+                                        
+    eco [label="global\neconomy", shape=circle];
+    wg [label="working\ngroups"];
+    orgs [label="organizations\n and spaces", shape=house];
+    ga [label="granting\nagencies"];
+
+    eco -> makers [color=green];
+    eco -> organizers [color=green];
+    orgs -> organizers [color=green];
+    makers -> orgs [color=green];
+    orgs -> nom [color=green];
+    nom -> events [color=green];
+    
+    organizers -> ga;
+    nom -> ga;
+    ga -> orgs [color=green];
+    ga -> nom [color=green];
+
+    events -> docs;
+    events -> videos;
+    videos -> organizers;
+    calls -> docs;
+    wg -> docs;
+    wg -> policy;
+    
+    docs -> organizers;
+    docs -> policy;
+    policy -> eco;
+    policy -> orgs;
+
+    nom -> organizers;
+    organizers -> code;
+    organizers -> events;
+    organizers -> orgs;
+    organizers -> calls;
+    organizers -> wg;
+    
+    code -> events;
+}

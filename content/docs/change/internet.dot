@@ -1,10 +1,11 @@
 digraph change_internet {
     rankdir=BT;
-    label="internet change process -- green is funds flow"
+    label="internet change process -- green is funds flow, black is text/code/effort"
+    // size="6,9";
 
     net [label="Internet"];
     wg [label="working group"]
-    eco [label="global\neconomy"]
+    eco [label="global\neconomy", shape=circle]
     proposal [shape=note];
     draft [shape=note];
     RFC [shape=note];

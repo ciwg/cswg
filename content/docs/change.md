@@ -14,6 +14,14 @@ weight: 1
 {{< figure src="internet.svg" >}}
 
 
+## Open Source 
+{{< figure src="oss.svg" >}}
+
+
+## NoM 2016-2022
+{{< figure src="nom-2016.svg" >}}
+
+
 ## NOMCON 2022 Data Flow
 {{< figure src="nomcon-2022.svg" >}}
 

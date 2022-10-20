@@ -1,19 +1,38 @@
 digraph change_oss {
-    rankdir=BT;
-    label="open source software change process"
+    rankdir=TB;
+    label="open source software change process\ngreen is funds flow, black is code/data/effort"
 
+    eco [label="global\neconomy", shape=circle, rank=1];
+    PR [label="pull\nrequest"];
+    
+    author;
+    contributor;
+    user;
+
+    eco -> author [color=green, weight=2];
+    eco -> contributor [color=green];
+    eco -> user [color=green];
+
+    author -> eco;
+    contributor -> eco;
+    user -> eco;
+    
+    author -> code [weight=4];
+    code -> user;
+    code -> contributor;
+    user -> issue [weight=2];
+    issue -> contributor;
+    contributor -> PR [weight=2];
+    PR -> author;
+
+
+    
     subgraph cluster_0 {
         label=github;
         issue;
         PR;
         code;
     }
+        
 
-    author -> code;
-    code -> user;
-    code -> contributor;
-    user -> issue;
-    issue -> contributor;
-    contributor -> PR;
-    PR -> author;
 }
