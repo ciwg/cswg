@@ -4,7 +4,7 @@
 all: ship
 
 ship: build 
-	test -z `git status --porcelain` || git gui
+	test -z "`git status --porcelain`" || git gui
 	git push 
 	# commit the changes in the clone and push them back to the local gh-pages branch    
 	cd public && git add --all && (git commit -m "publish to gh-pages" || true) && git push origin gh-pages
