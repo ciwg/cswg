@@ -1,0 +1,26 @@
+cswg:
+  desc: kickoff
+  cash: 0
+  days: 0
+  paths:
+    ad-hoc: .33
+    gdo: .33
+
+ad-hoc:
+  desc: continue using ad-hoc services
+  cash: -5000
+  days: 365
+  paths:
+    nomcon2023: 1
+
+gdo:
+  desc: platform first
+  cash: -25000
+  days: 365
+  paths:
+    nomcon2023: 1
+
+nomcon2023:
+  desc: NOMCON 2023
+  days: 365
+
