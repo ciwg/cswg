@@ -11,14 +11,14 @@ weight: 1
 
 ## Background
 
-The Community Infrastructure Working Group (CIWG) is focused on
+The Community Systems Working Group (CSWG) is focused on
 development of open-source infrastructure for operations and
 governance of communities, organizations, schools, and workplaces,
 with [NOMCON](https://nomcon.org), [Nation of
 Makers](https://www.nationofmakers.us/), the Maker community, and our
 shared physical and virtual spaces as reference implementations.
 
-We launched the CIWG at the end of NOMCON 2022.  The conference relied
+We launched the CSWG at the end of NOMCON 2022.  The conference relied
 on nearly a dozen third-party services, thousands of lines of custom
 Python and Go code, and hundreds of hours of volunteer and staff time
 to fill in the gaps between and outside those systems.  

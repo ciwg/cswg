@@ -7,9 +7,9 @@ digraph "" {
 		shape=ellipse
 	];
 	edge [penwidth=1.0];
-	"0xc000154000"	 [fillcolor="0.000 1.0 1.0",
+	"0xc000150000"	 [fillcolor="0.000 1.0 1.0",
 		height=2.5472,
-		label="ciwg \n kickoff \n 2022-09-06 - 2022-09-06 | { {             |cash|duration|npv    |mirr  } | {node     | 0 | 0 days     | 0    |      } | {\
+		label="cswg \n kickoff \n 2022-11-09 - 2022-11-09 | { {             |cash|duration|npv    |mirr  } | {node     | 0 | 0 days     | 0    |      } | {\
 past     | 0 | 0 days     | 0    |NaN% } | {future   | -15,000 | 730 days     | -15,000    |-100.0% }}",
 		pos="117.53,191.7",
 		rects="2.8422e-14,224.5,235.06,282.9 2.8422e-14,199.7,62.656,224.5 2.8422e-14,174.9,62.656,199.7 2.8422e-14,150.1,62.656,174.9 2.8422e-14,\
@@ -20,9 +20,9 @@ past     | 0 | 0 days     | 0    |NaN% } | {future   | -15,000 | 730 days     | 
 		shape=record,
 		style=filled,
 		width=3.2648];
-	"0xc000154180"	 [fillcolor="0.000 1.0 1.0",
+	"0xc000150180"	 [fillcolor="0.000 1.0 1.0",
 		height=2.5472,
-		label="ad-hoc \n continue using ad-hoc services \n 2022-09-06 - 2023-09-06 | { {             |cash|duration|npv    |mirr  } | {node     | \
+		label="ad-hoc \n continue using ad-hoc services \n 2022-11-09 - 2023-11-09 | { {             |cash|duration|npv    |mirr  } | {node     | \
 -5,000 | 365 days     | 0    |      } | {past     | -5,000 | 365 days     | -5,000    |-100.0% } | {future   | -5,000 | 730 days     | \
 -5,000    |-100.0% }}",
 		pos="426.13,292.7",
@@ -34,13 +34,13 @@ past     | 0 | 0 days     | 0    |NaN% } | {future   | -15,000 | 730 days     | 
 		shape=record,
 		style=filled,
 		width=3.6269];
-	"0xc000154000" -> "0xc000154180"	 [label=0.50,
+	"0xc000150000" -> "0xc000150180"	 [label=0.50,
 		lp="265.31,250.1",
 		penwidth=7.745966692414834,
 		pos="e,295.52,249.95 235.08,230.17 251.6,235.58 268.71,241.18 285.6,246.71"];
-	"0xc000154480"	 [fillcolor="0.000 1.0 1.0",
+	"0xc000150480"	 [fillcolor="0.000 1.0 1.0",
 		height=2.5472,
-		label="gdo \n platform first \n 2022-09-06 - 2023-09-06 | { {             |cash|duration|npv    |mirr  } | {node     | -25,000 | 365 days     | \
+		label="gdo \n platform first \n 2022-11-09 - 2023-11-09 | { {             |cash|duration|npv    |mirr  } | {node     | -25,000 | 365 days     | \
 0    |      } | {past     | -25,000 | 365 days     | -25,000    |-100.0% } | {future   | -25,000 | 730 days     | -25,000    |-100.0% }}",
 		pos="426.13,91.7",
 		rects="295.56,124.5,556.7,182.9 295.56,99.7,358.22,124.5 295.56,74.9,358.22,99.7 295.56,50.1,358.22,74.9 295.56,25.3,358.22,50.1 295.56,\
@@ -50,13 +50,13 @@ past     | 0 | 0 days     | 0    |NaN% } | {future   | -15,000 | 730 days     | 
 		shape=record,
 		style=filled,
 		width=3.6269];
-	"0xc000154000" -> "0xc000154480"	 [label=0.50,
+	"0xc000150000" -> "0xc000150480"	 [label=0.50,
 		lp="265.31,155.1",
 		penwidth=7.745966692414834,
 		pos="e,295.52,134.03 235.08,153.61 251.6,148.26 268.71,142.71 285.6,137.24"];
-	"0xc000154300"	 [fillcolor="0.000 1.0 1.0",
+	"0xc000150300"	 [fillcolor="0.000 1.0 1.0",
 		height=2.5472,
-		label="nomcon2023 \n NOMCON 2023 \n 2023-09-06 - 2024-09-05 | { {             |cash|duration|npv    |mirr  } | {node     | 0 | 365 days     | \
+		label="nomcon2023 \n NOMCON 2023 \n 2023-11-09 - 2024-11-08 | { {             |cash|duration|npv    |mirr  } | {node     | 0 | 365 days     | \
 0    |      } | {past     | -5,000 | 730 days     | -5,000    |-100.0% } | {future   | -5,000 | 730 days     | -5,000    |-100.0% }}",
 		pos="747.76,292.7",
 		rects="617.2,325.5,878.33,383.9 617.2,300.7,679.85,325.5 617.2,275.9,679.85,300.7 617.2,251.1,679.85,275.9 617.2,226.3,679.85,251.1 617.2,\
@@ -67,13 +67,13 @@ past     | 0 | 0 days     | 0    |NaN% } | {future   | -15,000 | 730 days     | 
 		shape=record,
 		style=filled,
 		width=3.6269];
-	"0xc000154180" -> "0xc000154300"	 [label=1.00,
+	"0xc000150180" -> "0xc000150300"	 [label=1.00,
 		lp="586.95,301.1",
 		penwidth=10.488088481701517,
 		pos="e,617.06,292.7 556.95,292.7 573.37,292.7 590.22,292.7 606.79,292.7"];
-	"0xc000154600"	 [fillcolor="0.000 1.0 1.0",
+	"0xc000150600"	 [fillcolor="0.000 1.0 1.0",
 		height=2.5472,
-		label="nomcon2023 \n NOMCON 2023 \n 2023-09-06 - 2024-09-05 | { {             |cash|duration|npv    |mirr  } | {node     | 0 | 365 days     | \
+		label="nomcon2023 \n NOMCON 2023 \n 2023-11-09 - 2024-11-08 | { {             |cash|duration|npv    |mirr  } | {node     | 0 | 365 days     | \
 0    |      } | {past     | -25,000 | 730 days     | -25,000    |-100.0% } | {future   | -25,000 | 730 days     | -25,000    |-100.0% }}",
 		pos="747.76,91.7",
 		rects="617.2,124.5,878.33,182.9 617.2,99.7,679.85,124.5 617.2,74.9,679.85,99.7 617.2,50.1,679.85,74.9 617.2,25.3,679.85,50.1 617.2,0.5,\
@@ -83,7 +83,7 @@ past     | 0 | 0 days     | 0    |NaN% } | {future   | -15,000 | 730 days     | 
 		shape=record,
 		style=filled,
 		width=3.6269];
-	"0xc000154480" -> "0xc000154600"	 [label=1.00,
+	"0xc000150480" -> "0xc000150600"	 [label=1.00,
 		lp="586.95,100.1",
 		penwidth=10.488088481701517,
 		pos="e,617.06,91.7 556.95,91.7 573.37,91.7 590.22,91.7 606.79,91.7"];

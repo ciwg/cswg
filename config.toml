@@ -1,4 +1,4 @@
-baseURL = 'http://ciwg.infrastructures.org/'
+baseURL = 'http://cswg.infrastructures.org/'
 languageCode = 'en-us'
-title = 'Community Infrastructure Working Group'
+title = 'Community Systems Working Group'
 theme = "hugo-book"

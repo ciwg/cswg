@@ -1,0 +1,50 @@
+digraph "ciwg" {
+    rankdir=TB;
+    label="CIWG concept map";
+    // conceptual concept-map.cmap concept-map.dot
+
+    
+    remote [shape=rectangle, style=rounded, label="remote presence"];
+    technical [shape=rectangle, style=rounded, label="technical folks"];
+    nontechnical [shape=rectangle, style=rounded, label="nontechnical folks"];
+    research [shape=rectangle, style=rounded, label="pandemic research"];
+    mitigations [shape=rectangle, style=rounded, label="pandemic mitigations"];
+    self [shape=rectangle, style=rounded, label="self interest"];
+    decision [shape=rectangle, style=rounded, label="decision-making"];
+    NoM [shape=rectangle, style=rounded, label="NoM"];
+    centralization [shape=rectangle, style=rounded, label="centralization"];
+    resources [shape=rectangle, style=rounded, label="resources"];
+    time [shape=rectangle, style=rounded, label="time"];
+    money [shape=rectangle, style=rounded, label="money"];
+    effort [shape=rectangle, style=rounded, label="effort"];
+    git [shape=rectangle, style=rounded, label="git"];
+    policy [shape=rectangle, style=rounded, label="policy"];
+    onsite [shape=rectangle, style=rounded, label="onsite"];
+    transmission [shape=rectangle, style=rounded, label="transmission"];
+    illness [shape=rectangle, style=rounded, label="illness"];
+    economy [shape=rectangle, style=rounded, label="economy"];
+    commons [shape=rectangle, style=rounded, label="commons"];
+
+    
+    NoM -> centralization [label="issues of scale\ndue to"];
+    NoM -> decision [label="issues of scale\ndue to"];
+    NoM -> resources [label="issues of scale\ndue to"];
+    resources -> time [label="require"];
+    resources -> money [label="require"];
+    resources -> effort [label="require"];
+    git -> remote [label="supports"];
+    git -> technical [label="optimized for"];
+    git -> nontechnical [label="not optimized for"];
+    technical -> research [label="conduct"];
+    nontechnical -> policy [label="make"];
+    policy -> remote [label="discourages"];
+    policy -> onsite [label="encourages"];
+    onsite -> transmission [label="supports"];
+    transmission -> illness [label="causes"];
+    illness -> economy [label="harms"];
+    illness -> self [label="harms"];
+    research -> mitigations [label="indicates"];
+    mitigations -> remote [label="spurred"];
+    remote -> self [label="persists due to"];
+    economy -> commons [label="is a"];
+}
