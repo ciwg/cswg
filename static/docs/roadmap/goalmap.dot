@@ -1,0 +1,275 @@
+digraph "" {
+	graph [bb="0,0,1271.7,1108.3",
+		rankdir=TB
+	];
+	node [label="\N"];
+	"overcome climate change
+"	 [height=0.5,
+		pos="551.07,266.6",
+		width=3.0474];
+	"ensure the next generation has
+what they need to survive and
+prosper
+"	 [height=1.1471,
+		pos="300.07,159.89",
+		width=3.6434];
+	"overcome climate change
+" -> "ensure the next generation has
+what they need to survive and
+prosper
+"	 [pos="e,378.37,193.17 511.3,249.69 478.2,235.62 429.88,215.07 387.8,197.18"];
+	"reduce CO2
+"	 [height=0.5,
+		pos="468.07,350.01",
+		width=1.5951];
+	"reduce CO2
+" -> "overcome climate change
+"	 [pos="e,533.32,284.43 485.27,332.73 497.01,320.92 512.78,305.08 525.93,291.86"];
+	"convert to renewables
+"	 [height=0.5,
+		pos="361.07,422.01",
+		width=2.6601];
+	"convert to renewables
+" -> "reduce CO2
+"	 [pos="e,443.51,366.54 386.97,404.58 401.34,394.91 419.38,382.78 434.79,372.41"];
+	"overcome increasing energy
+cost
+"	 [height=0.8171,
+		pos="300.07,266.6",
+		width=3.414];
+	"convert to renewables
+" -> "overcome increasing energy
+cost
+"	 [pos="e,311.61,296 353.95,403.88 344.52,379.86 327.65,336.86 315.29,305.37"];
+	"enable a return to practice
+based education
+"	 [height=0.8171,
+		pos="792.07,733.31",
+		width=3.1695];
+	"reform education
+"	 [height=0.5,
+		pos="420.07,638.01",
+		width=2.1462];
+	"enable a return to practice
+based education
+" -> "reform education
+"	 [pos="e,480.65,649.21 725.13,709.34 707.06,703.28 687.42,697.07 669.07,692.01 609.52,675.61 540.85,661.04 490.73,651.18"];
+	"provide tools to support
+communities of practice
+"	 [height=0.8171,
+		pos="652.07,984.02",
+		width=2.9716];
+	"provide tools to support
+communities of practice
+" -> "enable a return to practice
+based education
+"	 [pos="e,731.11,758.35 647.99,954.55 644.46,917.93 643.59,854.86 671.07,810.6 683.33,790.86 702.7,775.25 722.38,763.38"];
+	"support maker community CoP
+"	 [height=0.5,
+		pos="812.07,828.6",
+		width=3.6668];
+	"provide tools to support
+communities of practice
+" -> "support maker community CoP
+"	 [pos="e,793.41,846.73 681.41,955.51 711.39,926.39 757.49,881.61 786.16,853.77"];
+	"support NoM
+"	 [height=0.5,
+		pos="861.07,900.6",
+		width=1.7445];
+	"provide tools to support
+communities of practice
+" -> "support NoM
+"	 [pos="e,824.15,915.34 712.8,959.78 745.32,946.8 784.74,931.07 814.75,919.09"];
+	"support maker community CoP
+" -> "enable a return to practice
+based education
+"	 [pos="e,798.27,762.87 808.21,810.23 805.99,799.64 803.11,785.91 800.4,772.99"];
+	"support NoM
+" -> "support maker community CoP
+"	 [pos="e,824.38,846.69 848.96,882.8 843.29,874.47 836.41,864.38 830.15,855.17"];
+	"provide tools to support open
+collaboration
+"	 [height=0.8171,
+		pos="400.07,984.02",
+		width=3.5374];
+	"provide tools to support open
+collaboration
+" -> "reform education
+"	 [pos="e,419.01,656.31 401.77,954.52 405.57,888.86 414.67,731.36 418.42,666.58"];
+	"redefine governance
+"	 [height=0.5,
+		pos="302.07,566.01",
+		width=2.4885];
+	"provide tools to support open
+collaboration
+" -> "redefine governance
+"	 [pos="e,263.01,582.24 294.52,967.5 217.34,948.71 126.07,909.4 126.07,828.6 126.07,828.6 126.07,828.6 126.07,733.31 126.07,662.52 201.79,\
+612.62 253.9,586.66"];
+	"decentralized storage and
+processing
+"	 [height=0.8171,
+		pos="527.07,1078.8",
+		width=3.1085];
+	"decentralized storage and
+processing
+" -> "provide tools to support
+communities of practice
+"	 [pos="e,615.5,1011.8 563.9,1050.9 577.5,1040.6 593.07,1028.8 607.3,1018"];
+	"decentralized storage and
+processing
+" -> "provide tools to support open
+collaboration
+"	 [pos="e,438.1,1012.4 489.65,1050.9 476.07,1040.8 460.57,1029.2 446.32,1018.6"];
+	"collaborative editor
+"	 [height=0.5,
+		pos="988.07,1078.8",
+		width=2.3996];
+	"collaborative editor
+" -> "provide tools to support
+communities of practice
+"	 [pos="e,729.59,1004.3 940.33,1063.7 925.24,1059 908.49,1053.9 893.07,1049.4 842.35,1034.7 785.34,1019.2 739.5,1007"];
+	"collaborative editor
+" -> "provide tools to support open
+collaboration
+"	 [pos="e,489.78,1004.9 944.08,1063.2 928.19,1058.1 909.99,1052.9 893.07,1049.4 736.79,1017.7 693.58,1038.3 536.07,1013.4 524.32,1011.6 \
+512.07,1009.3 499.93,1007"];
+	"provide tools to support
+NOMCON
+"	 [height=0.8171,
+		pos="1166.1,984.02",
+		width=2.9341];
+	"collaborative editor
+" -> "provide tools to support
+NOMCON
+"	 [pos="e,1117.1,1010.1 1019.9,1061.9 1044.4,1048.9 1078.8,1030.5 1108.1,1014.9"];
+	"accessible version control
+with pull requests
+"	 [height=0.8171,
+		pos="770.07,1078.8",
+		width=3.1547];
+	"accessible version control
+with pull requests
+" -> "provide tools to support
+communities of practice
+"	 [pos="e,686.81,1011.9 734.98,1050.7 722.38,1040.5 708.03,1029 694.84,1018.4"];
+	"accessible version control
+with pull requests
+" -> "provide tools to support open
+collaboration
+"	 [pos="e,485.46,1005.9 689.33,1058.2 632.22,1043.5 555.44,1023.8 495.34,1008.4"];
+	"accessible version control
+with pull requests
+" -> "provide tools to support
+NOMCON
+"	 [pos="e,1089.2,1004.2 853.4,1058.8 866.66,1055.6 880.24,1052.4 893.07,1049.4 963.64,1033 981.65,1030.5 1052.1,1013.4 1060.9,1011.3 1070.1,\
+1009 1079.3,1006.7"];
+	"distributed consensus tools
+"	 [height=0.5,
+		pos="282.07,1078.8",
+		width=3.1973];
+	"distributed consensus tools
+" -> "provide tools to support
+communities of practice
+"	 [pos="e,573.78,1004.1 342.34,1063.4 402.45,1048 495.45,1024.2 563.87,1006.6"];
+	"distributed consensus tools
+" -> "provide tools to support open
+collaboration
+"	 [pos="e,364.52,1012.6 304.26,1061 318.97,1049.2 338.75,1033.3 356.52,1019"];
+	"provide tools to support
+NOMCON
+" -> "support NoM
+"	 [pos="e,906.74,913.09 1090.7,963.4 1036.7,948.64 965.26,929.1 916.49,915.76"];
+	"provide tools to support CHMF
+"	 [height=0.5,
+		pos="910.07,984.02",
+		width=3.6893];
+	"provide tools to support CHMF
+" -> "support NoM
+"	 [pos="e,871.51,918.38 899.44,965.92 892.78,954.58 884.08,939.78 876.65,927.13"];
+	"overcome misinformation
+"	 [height=0.5,
+		pos="111.07,494.01",
+		width=3.0852];
+	"overcome misinformation
+" -> "ensure the next generation has
+what they need to survive and
+prosper
+"	 [pos="e,213.09,191.06 109.29,475.79 105.85,430.69 102.91,312.05 157.07,237.18 169.22,220.38 186.18,206.86 204.18,196.11"];
+	"reform education
+" -> "overcome misinformation
+"	 [pos="e,124.59,512.12 350.14,630.19 305.82,622.98 248.49,609.37 203.07,584.01 174.26,567.93 148.08,540.46 131.08,520.09"];
+	"overcome pandemics
+"	 [height=0.5,
+		pos="644.07,422.01",
+		width=2.5783];
+	"reform education
+" -> "overcome pandemics
+"	 [pos="e,625.48,439.93 438.4,620.34 478.11,582.05 572.17,491.34 618.03,447.12"];
+	"overcome political divisions
+"	 [height=0.5,
+		pos="361.07,494.01",
+		width=3.3462];
+	"reform education
+" -> "overcome political divisions
+"	 [pos="e,377.67,512.24 418.52,619.71 416.41,601.01 411.62,571.46 401.07,548.01 396.69,538.28 390.33,528.6 383.96,520.19"];
+	"reform education
+" -> "redefine governance
+"	 [pos="e,330.38,583.29 392.4,621.13 376.51,611.43 356.34,599.13 339.09,588.6"];
+	"overcome pandemics
+" -> "ensure the next generation has
+what they need to survive and
+prosper
+"	 [pos="e,427.63,169.63 654.58,403.88 673.97,367.79 709.92,286.22 670.07,237.18 640.72,201.07 530.32,181.24 437.69,170.74"];
+	"give future generations a
+chance to better understand
+our place in the universe
+"	 [height=1.1471,
+		pos="300.07,41.295",
+		width=3.3302];
+	"ensure the next generation has
+what they need to survive and
+prosper
+" -> "give future generations a
+chance to better understand
+our place in the universe
+"	 [pos="e,300.07,82.949 300.07,118.41 300.07,110.24 300.07,101.58 300.07,93.117"];
+	"overcome political divisions
+" -> "convert to renewables
+"	 [pos="e,361.07,440.42 361.07,475.84 361.07,468.14 361.07,458.99 361.07,450.43"];
+	"overcome political divisions
+" -> "ensure the next generation has
+what they need to survive and
+prosper
+"	 [pos="e,216.06,191.67 315.79,477.28 295.88,468.36 273.19,455.92 256.07,440.01 201.12,388.96 188.38,368.21 168.07,296.01 160.99,270.84 \
+155.06,259.86 168.07,237.18 177.37,220.95 191.55,207.8 207.22,197.26"];
+	"overcome increasing energy
+cost
+" -> "ensure the next generation has
+what they need to survive and
+prosper
+"	 [pos="e,300.07,201.21 300.07,237.15 300.07,229.17 300.07,220.29 300.07,211.47"];
+	"provide tools to support
+better critical thinking
+"	 [height=0.8171,
+		pos="554.07,733.31",
+		width=2.9341];
+	"provide tools to support
+better critical thinking
+" -> "reform education
+"	 [pos="e,444.4,655.32 515.31,705.74 495.47,691.63 471.58,674.65 452.7,661.22"];
+	"provide tools to support
+accessible data science and
+visualization
+"	 [height=1.1471,
+		pos="273.07,733.31",
+		width=3.2993];
+	"provide tools to support
+accessible data science and
+visualization
+" -> "reform education
+"	 [pos="e,393.92,654.96 329.48,696.74 348.2,684.6 368.48,671.45 385.1,660.68"];
+	"redefine governance
+" -> "overcome political divisions
+"	 [pos="e,346.24,512.1 316.65,548.21 323.62,539.71 332.09,529.37 339.77,520.01"];
+}
+

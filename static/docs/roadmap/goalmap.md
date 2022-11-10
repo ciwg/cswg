@@ -8,19 +8,19 @@
     - overcome political divisions
       - reform education
         - enable a return to practice-based education
-              - provide tools to support communities of practice
+          - provide tools to support communities of practice
           - support maker community CoP
               - provide tools to support communities of practice
             - support NoM
               - provide tools to support NOMCON
                   - collaborative editor
                   - accessible version control with pull requests
-              - provide tools to support CHMF
               - provide tools to support communities of practice
                   - decentralized storage and processing
                   - collaborative editor
                   - accessible version control with pull requests
                   - distributed consensus tools
+              - provide tools to support CHMF
         - provide tools to support better critical thinking
         - provide tools to support accessible data science and visualization
         - provide tools to support open collaboration
