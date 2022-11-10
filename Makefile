@@ -20,9 +20,6 @@ graphs:
 clean:
 	# remove previous publication
 	rm -rf public
-	mkdir public
-
-setup:
 	# clone gh-pages branch from the local repo into a repo located within "public"
 	git clone .git --branch gh-pages public
   
