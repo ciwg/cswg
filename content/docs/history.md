@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "History"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -11,7 +11,7 @@ weight: 1
 
 ## Background
 
-The Community Systems Working Group (CSWG) is focused on
+The Community Systems Working Group (CSWG) began its focus on
 development of open-source infrastructure for operations and
 governance of communities, organizations, schools, and workplaces,
 with [NOMCON](https://nomcon.org), [Nation of
