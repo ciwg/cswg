@@ -7,7 +7,7 @@ draft: false
 CSWG is a maker collective focused on building open-source infrastructure for organizing and managing decentralized organizations & communities. This includes makerspaces, non-profits, open-source projects, and other groups that largely rely on volunteers and community support.
 
 ## Goals
-Our goal is to eliminate as much of the administrative overheads as possible for organizing community efforts, so that the people involved can focus on the work they're passionate about.
+Our goal is to eliminate as much of the administrative overhead as possible for organizing community efforts, so that the people involved can focus on the work they're passionate about.
 
 We've identified a number of areas where we can make a difference:
 - Reducing reliance on third-party services and tools
