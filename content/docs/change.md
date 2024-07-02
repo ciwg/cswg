@@ -2,7 +2,7 @@
 title: "Change process diagrams"
 weight: 1
 # bookFlatSection: false
-# bookToc: true
+bookToc: false
 # bookHidden: false
 # bookCollapseSection: false
 # bookComments: false
