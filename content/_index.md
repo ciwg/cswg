@@ -9,7 +9,7 @@ CSWG is focused on building open-source infrastructure for decentralized organiz
 ## Goals
 Our goal is to reduce the workload and increase the resiliency of community and organizational infrastructure so the people involved can focus on the work they're passionate about.
 
-We've identified a number of areas where we believe can make a difference:
+We've identified a number of closely-related areas where we believe we can make a difference:
 
 - Avoiding up-front cost of traditional infrastructure buildout.
 - Reducing reliance on centralized third-party services and tools and
