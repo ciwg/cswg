@@ -8,7 +8,7 @@ ship: build
 	test -z "`git status --porcelain`"
 	# commit the changes in the clone and push them back to the local gh-pages branch
 	cd public && git add --all && (git commit -m "publish to gh-pages" || true) && git push origin gh-pages
-	git push origin gh-pages
+	git push -u origin gh-pages
 	git push
 
 build: graphs
