@@ -12,7 +12,7 @@ ship: build
 	git push
 
 upstream: ship
-	cd public && git push -u upstream gh-pages
+	git push -u upstream gh-pages
 
 build: graphs
 	hugo
@@ -34,4 +34,5 @@ clean-fork:
 	cd public && git checkout gh-pages
 	cd public && git remote remove origin
 	cd public && git remote add origin $(PWD)/.git
+	#cd public && git remote add upstream git@github.com:ciwg/cswg.git
 	cd public && git push -u origin gh-pages
