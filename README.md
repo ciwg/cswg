@@ -17,15 +17,27 @@ This site is built using Hugo, a static site generator written in Go. Most of th
 
 Before starting, make sure you've forked the repo and are able to get the local environment running. See the Quick Start section above.
 
-1. Create an issue to discuss the changes you'd like to make or find an existing issue to work on.
-2. Create a new branch to work on your changes. The branch name should include the issue number you created and short description of the changes you're making. For example:
+1. In Github, create an issue to discuss the changes you'd like to make or find an existing issue to work on.
+2. In your terminal, pull the latest version of the live site to ensure your local environment is up-to-date.
+    ```
+    git switch main
+    git pull upstream main
+    ```
+3. Create a new branch to work on your changes. The branch name should include the issue number you created and short description of the changes you're making. For example:
     ```
     git checkout -b 23_fix_typo_in_index
     ```
 3. Run `hugo server` to start a local server
 4. Make your changes
-5. Push your changes to your forked repository
-6. Create a pull request to merge your changes into the main repository
+5. Push your branch to your forked repository: `git push origin 23_fix_typo_in_index`
+6. Go to Github, create a pull request to merge your branch into the main upstream repository:
+    - Click on the "Pull Requests" tab in your forked repository.
+    - Click on the "New Pull Request" button.
+    - Select the base repository as `cswg/cswg` and the base branch as `main`.
+    - Select your branch as the compare branch. `23_fix_typo_in_index`
+    - Add a title and description for your pull request.
+    - Link it to the issue you created. (eg. `Fixes #23`)
+    - Click on the "Create Pull Request" button.
 7. Wait for your changes to be reviewed and merged.
     To keep your PR viable, you may need to rebase your branch on the main branch if there are conflicts.
     ```
