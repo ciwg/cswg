@@ -23,3 +23,9 @@ clean:
 	rm -rf public
 	# clone gh-pages branch from the local repo into a repo located within "public"
 	git clone .git --branch gh-pages public
+
+# Run this to initialize the public directory in the clone of a fork
+clean-fork:
+	rm -rf public
+	git clone git@github.com:ciwg/cswg.git public
+	cd public && git checkout gh-pages
