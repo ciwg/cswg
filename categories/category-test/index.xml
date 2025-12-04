@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Community Systems Working Group</title>
-    <link>http://cswg.infrastructures.org/posts/</link>
-    <description>Recent content in Blog on Community Systems Working Group</description>
+    <title>Category-Test on Community Systems Working Group</title>
+    <link>http://cswg.infrastructures.org/categories/category-test/</link>
+    <description>Recent content in Category-Test on Community Systems Working Group</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://cswg.infrastructures.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://cswg.infrastructures.org/categories/category-test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Placeholder for testing and setup of CSWG blog</title>
       <link>http://cswg.infrastructures.org/posts/placeholder/</link>

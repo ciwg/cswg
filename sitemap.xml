@@ -12,13 +12,24 @@
     <loc>http://cswg.infrastructures.org/posts/</loc>
     <lastmod>2025-11-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://cswg.infrastructures.org/categories/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://cswg.infrastructures.org/categories/category-test/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://cswg.infrastructures.org/tags/setup/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://cswg.infrastructures.org/tags/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://cswg.infrastructures.org/tags/testing/</loc>
+    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://cswg.infrastructures.org/</loc>
     <lastmod>2024-02-13T15:04:22-07:00</lastmod>
   </url><url>
-    <loc>http://cswg.infrastructures.org/categories/</loc>
-  </url><url>
     <loc>http://cswg.infrastructures.org/docs/</loc>
-  </url><url>
-    <loc>http://cswg.infrastructures.org/tags/</loc>
   </url>
 </urlset>
