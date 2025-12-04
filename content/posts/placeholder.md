@@ -1,12 +1,11 @@
 ---
 date: 2025-11-20
-linktitle: Placeholder
-menu:
-  main:
-    parent: admin
-prev: /admin/placeholder
 title: Placeholder for testing and setup of CSWG blog
+linktitle: Placeholder
 weight: 10
+
+tags: ["setup", "testing"]
+categories: ["category-test"]
 ---
 
 This post is a placeholder for testing and setup of the CSWG blog.
