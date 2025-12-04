@@ -11,6 +11,9 @@ ship: build
 	git push -u origin gh-pages
 	git push
 
+upstream: ship
+	cd public && git push -u upstream gh-pages
+
 build: graphs
 	hugo
 
