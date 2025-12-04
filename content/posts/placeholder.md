@@ -4,7 +4,7 @@ title: Placeholder for testing and setup of CSWG blog
 linktitle: Placeholder
 weight: 10
 
-tags: ["setup", "testing"]
+tags: ["testing"]
 categories: ["category-test"]
 ---
 
