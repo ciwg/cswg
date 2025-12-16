@@ -28,16 +28,15 @@ Before starting, make sure you've forked the repo and are able to get the local 
     git checkout -b 23_fix_typo_in_index
     ```
 3. Run `hugo server` to start a local server
-4. Make your changes
+4. Make your changes and commit them.
 5. Push your branch to your forked repository: `git push origin 23_fix_typo_in_index`
 6. Go to Github, create a pull request to merge your branch into the main upstream repository:
-    - Click on the "Pull Requests" tab in your forked repository.
-    - Click on the "New Pull Request" button.
+    - Click on the "Create Pull Request" button at the top of your forked repository.
     - Select the base repository as `cswg/cswg` and the base branch as `main`.
     - Select your branch as the compare branch. `23_fix_typo_in_index`
     - Add a title and description for your pull request.
-    - Link it to the issue you created. (eg. `Fixes #23`)
     - Click on the "Create Pull Request" button.
+    Tip: Include the text 'Fix #23' or similar in your commit message or the pull request description. This will automatically close the issue when the PR is merged.
 7. Wait for your changes to be reviewed and merged.
     To keep your PR viable, you may need to rebase your branch on the main branch if there are conflicts.
     ```
