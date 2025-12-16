@@ -31,7 +31,7 @@ Before starting, make sure you've forked the repo and are able to get the local 
 5. Make your changes and commit them.
 6. Push your branch to your forked repository: `git push origin 23_fix_typo_in_index`
 7. Go to Github, create a pull request to merge your branch into the main upstream repository:
-    - Click on the "Create Pull Request" button at the top of your forked repository.
+    - Click on the "Contribute > Open Pull Request" button at the top of your forked repository.
     - Select the base repository as `cswg/cswg` and the base branch as `main`.
     - Select your branch as the compare branch. `23_fix_typo_in_index`
     - Add a title and description for your pull request.
